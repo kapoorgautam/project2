@@ -1,0 +1,64 @@
+.pricing {
+    width: 100%;
+    padding: 6rem 1rem;
+    background: transparent;
+    border-radius: round 3px;
+}
+.plans-heading{
+    text-align: center;
+    padding: 0  0 2rem 0;
+}
+.card1-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px; 
+}
+ .card1:hover{
+background-color: rgb(26, 25, 25); 
+ }
+.card1{
+    border: 1px solid wheat;
+    color: wheat;
+    text-align: center;
+    padding: 1rem;
+    background: #FF7171;
+    border-radius: 20px;
+}
+
+
+.card1 h3{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.card1 p {
+    padding: 10px 0;
+}
+ .bar{
+    border-bottom: 1px solid wheat;
+    width: 10%;
+    margin: 1.5rem auto;
+    display:block
+}
+  /* .btn{
+    font-size:4rem;
+     font-weight:600;
+    padding:1rem 0;
+    }  */
+     
+.card1 .btn{
+    display: block;
+    width: 80%;
+    margin:2rem auto;
+    font-weight: 600;
+} 
+
+@media screen and (max-width: 740px) {
+    .card1-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns:1fr ;
+
+    }
+}

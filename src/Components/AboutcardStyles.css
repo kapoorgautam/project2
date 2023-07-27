@@ -1,0 +1,52 @@
+.acard1 {
+    width: 100%;
+    padding: 6rem 1rem;
+    background: transparent;}
+    
+.plans-heading{
+    text-align: center;
+    padding: 0  0 2rem 0;
+}
+.acard1-container{
+    max-width: 30px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:40px;
+ 
+}
+ .acard1:hover{
+background-color: rgb(26, 25, 25); 
+ }
+.acard1{
+    border: 1px solid wheat;
+    color: wheat;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.acard1 h3{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.acard1 p {
+    padding: 10px 0;
+}
+ .bar{
+    border-bottom: 1px solid wheat;
+    width: 10%;
+    margin: 1.5rem auto;
+    display:block
+}
+
+     
+
+@media screen and (max-width: 740px) {
+    .acard1-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns:1fr ;
+
+    }
+}
