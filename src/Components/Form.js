@@ -1,7 +1,6 @@
 import "./FormStyles.css"
 import React from 'react'
 import d from "../assets/dr-c.jpg"
-// import p from "../assets/pt2.jpg"
 
 
 
@@ -9,8 +8,9 @@ import d from "../assets/dr-c.jpg"
 const Form = () => {
    return (
 
-      <>
+      <><div id ="n">
        <h2>We are here to help you...🩺</h2>
+       </div>
        <div className="form-container">
       <div className="l-form">
       <img src= {d} alt="true" />
