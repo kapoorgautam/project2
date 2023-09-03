@@ -57,19 +57,19 @@ const Homecontent = () => {
 <img src= {e} alt="true" />
   <h3>Home service</h3>
   <p>Your Space, Your Health, Our Priority</p>
-  <a href="./service.html"><button className="btn">Load more <span>→</span></button></a> 
+  <a href="./Treat"><button className="btn">Load more <span>→</span></button></a> 
 </div>
 <div className="feature-card flex">
 <img src= {g} alt="true" />
   <h3>Digital service</h3>
   <p>Online Physio: Where Care Knows No Boundaries</p>
-  <a href="./service.html"><button className="btn">Load more <span>→</span></button></a> 
+  <a href="./Treat"><button className="btn">Load more <span>→</span></button></a> 
 </div>
 <div className="feature-card flex">
 <img src= {f} alt="true" />
   <h3>Clinical service</h3>
   <p>Clinical Mastery for Your Optimal Health</p>
-  <a href="./service.html"><button className="btn">Load more <span>→</span></button></a> 
+  <a href="./Treat"><button className="btn">Load more <span>→</span></button></a> 
 </div>
 </div></div>
  
