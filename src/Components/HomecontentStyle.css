@@ -101,7 +101,7 @@ color:  rgb(131, 122, 106);
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 340px) {
    
         .big-f{
             display: flex;
