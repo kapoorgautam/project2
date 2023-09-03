@@ -1,22 +1,30 @@
 .about{
+    overflow: hidden;
 width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-wrap: wrap;
-height: 100%;
+flex-direction: column;
+/* height: 100%; */
 }
 .about .abouttext{
     text-align: center;
     margin: 3rem 1rem;
 }
 .about .abouttext h1{
-
-    font-size: 8vw;}
+ font-size: 3em;
+ color: black;
+}
     .about .abouttext p{
-        font-size: 3rem;
-        margin: 0rem 0;
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: rgb(252, 130, 9);
+    }
+    .about .abouttext .pe{
         color: black;
+        margin-bottom: -40px;
+        margin-top: 60px;
     }
 
     .about .container{
@@ -26,43 +34,39 @@ height: 100%;
         margin-top: 0rem;
         /* grid-template-columns: repeat(1,1fr); */
     }
-     .about .leftaboutimg{
+     .about>.leftaboutimg{
         width: 100%;
         height: 30%;
-        margin-left: 6rem;
-        margin-right: 6rem;
+        /* margin-left: 3rem; */
+        /* margin-right: 1rem; */
         margin-top: 3rem;
         padding: 1rem 1rem;
         justify-content: center;
         align-items: center;
     
     }
-    /* .about h2{
-        text-align: center;
-    } */
-    
-    .about .rightaboutimg{
-        width: 100%;
-        padding: 3% 0%;
-    
-    }
 
-    /* .about .container{
-        position: relative;
+    
+    .about>.rightaboutimg{
+        width: 10rem;
+        height: 10rem;
+
+        /* padding: 3% 0%; */
+    
     }
-    .about .aboutimg{
-        width: 100%;
-        display: flex;
-        align-items: left;
-        justify-content: center;
-        height: 100%;
-    } */
+    .container>.leftaboutimg h1{
+    color: black;
+    margin-top: 3rem;
+    }
+    .container>.leftaboutimg h2{
+      color: rgb(131, 122, 106);
+    }
 
 
     .about .acard1 {
         width: 100%;
-        margin: 1rem 1rem;
-        background:#FD8A8A;}
+        margin: -1rem 1rem;
+        background:rgb(39, 35, 35);}
       .about  .acard1-container{
             max-width: 1140px;
             margin: auto;
@@ -75,19 +79,66 @@ height: 100%;
                 text-align: center;
                    margin-bottom: 3rem;
                    padding: 1rem 2rem;
-                  background: #FD8A8A;
+                   margin-top: 4rem;
+                  background:rgb(38, 33, 26);
     
                            }
+                           .aboutreq h1{
+                            font-weight: 300;
+                            font-size: 3rem;
+                           }
+
+          
  .aboutreq .aboutb{
                 text-align: center;
                 margin: 2rem 2rem;
             }
             @media screen and (max-width: 640px) {
+
+
+                .about .rightaboutimg{
+                  margin-left: 2.3rem;
+             
+                
+                }
+                .about .rightaboutimg img{
+                    width: 60vw;
+                }
                  .about .acard1-container {
                     max-width: 80%;
                     margin: auto;
                     display: flex;
                         flex-wrap: wrap;
+                 }
+                 .about .container .leftaboutimg{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                 }
+                 .about .container .leftaboutimg img{
+                    width: 10rem;
+
+
+                 }
+                 .about .container .leftaboutimg h1{
+                    font-size: 1rem;
+                    /* display: flex; */
+                    margin-top: 5px;
+                    text-align: center;
+                    display: flex;
+
+                    margin-bottom: -10px;
+                 }
+                 .about .container .leftaboutimg h2{
+                    font-size: 1rem;
+                    /* justify-content: center; */
+                    padding: 1rem 3rem;
+                    font-weight: 500;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    /* width: 18vw; */
                  }
                  .about .container{
 
@@ -98,9 +149,19 @@ height: 100%;
                     /* margin: auto; */
                     /* grid-template-columns: repeat(1,1fr); */
                 }
-                .about .rightaboutimg{
-                    width: 60%;
-                    padding: 1rem 3rem;
-                
+                .about .abouttext p{
+                    text-align: center;
+                    font-size: 1rem;
                 }
+                .aboutreq{
+                    width: 80%;
+                   
+                  
+                    
+
+                }
+                .aboutreq h1{
+                    font-size: 1.8rem;
+                font-weight: 200;             }
+         
             }

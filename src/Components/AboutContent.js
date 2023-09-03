@@ -21,7 +21,7 @@ Treated 200 + patient in clinical practice..
 Also have 6 months experience from "Rohtak PGIMS"
 
 </p>
-<p> Our Physiotherapist.. </p>
+<p className="pe"> Our Physiotherapist.. </p>
 {/* <h3>Dr. Nikhil kapoor</h3>     */}
   </div>
   <div className="container">
@@ -29,8 +29,7 @@ Also have 6 months experience from "Rohtak PGIMS"
         <img src= {dr} alt="true" />
         <h1>Dr. Nikhil kapoor</h1>
         <h2> Currently working in Jivisha advanced medical centre,paschim vihar,Delhi...
-Treated 200 + patient in clinical practice..
-        </h2>
+Treated 200 + patient in clinical practice.. </h2>
       </div>
       <div className="rightaboutimg">
         <img src= {neuroweb} alt="true" />
@@ -61,7 +60,7 @@ Treated 200 + patient in clinical practice..
               
             </div>
             <div className="acard1">
-                <h3> RIGHT INFRASTRUCTURE </h3>  
+                <h3> Right Infrastructure </h3>  
                 <p> World-class equipment and modalities</p>
               
             </div>

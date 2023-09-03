@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar';
 import Footer from "../Components/Footer";
  import HeroImg2 from '../Components/HeroImg2';
 import AboutContent from '../Components/AboutContent';
+import "./Frontstyle.css";
 
 const About = () => {
   return (
@@ -11,10 +12,7 @@ const About = () => {
       <HeroImg2 />
       <AboutContent />
       <Footer />
-    </div><div className="text1">
-        <h1>Why Choose Us ?</h1>
-        <p>Treated 1000+ patient</p>
-      </div></>
+    </div> </>
   )
 }
 

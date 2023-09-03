@@ -16,8 +16,8 @@ const Treat = () => {
         <PricingCard/>
          <Footer/>
          <div className="text1">
-          <h1>Treatment that we treat </h1>
-          <p>Your good healt is our responsibility...</p>
+          {/* <h1>Treatment that we treat </h1> */}
+          <p>Your good health is our responsibility...</p>
         </div>
        
     </div>

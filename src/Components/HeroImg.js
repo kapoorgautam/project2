@@ -12,7 +12,7 @@ const HeroImg = () => {
 
             </div>
             <div className="content">
-               <p>We are Here, for your good health</p>
+               <p>Your Partner for a Pain-Free Tomorrow</p>
                 <h1>Optima Physio Care</h1>
            
           <div>

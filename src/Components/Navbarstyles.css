@@ -21,8 +21,8 @@
 .logowa{
     width: 80px;
     position: fixed;
-    bottom: 10px;
-    top: 20vh;
+    /* bottom: 10px; */
+    top: 85%;
     right: 10px;
     z-index: 7;
     padding-right: 1rem;
@@ -41,6 +41,7 @@
 }
 .hamburger{
     display: none;
+    /* hover:pointer; */
     
 }
 @media screen and (max-width:1040px) {
@@ -70,6 +71,16 @@
     .hamburger{
         display: initial;
         hover: pointer;
+}
+.logowa{
+    width: 60px;
+    position: fixed;
+    margin-top: 98%;
+    /* bottom: 10px; */
+    /* top: 20vh; */
+    /* right: 10px; */
+    z-index: 7;
+    padding-right: 0.6rem;
 }
 }
 

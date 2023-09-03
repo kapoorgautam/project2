@@ -9,14 +9,15 @@ const Form = () => {
    return (
 
       <><div id ="n">
-       <h2>We are here to help you...🩺</h2>
+       <h2>Connect with Us for a Pain-Free Tomorrow..🩺</h2>
        </div>
        <div className="form-container">
       <div className="l-form">
       <img src= {d} alt="true" />
-      {/* <img src= {p} alt="true" /> */}
-      {/* <h2>We are here to help you...🩺</h2> */}
+      <h5>At Optima Physio Care,Our team of experienced physiotherapists is here to support you on your journey to recovery and well-being. we're here to answer your questions, provide guidance, and schedule your first appointment. Take the first step towards a healthier,happier you – get in touch with us today!</h5>
+
       </div>
+
       
       
       <div className="form">

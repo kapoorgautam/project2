@@ -34,7 +34,8 @@ position: relative;
 }
 .hero .content h1{
     font-size: 4rem;
-    padding: 0.6rem 0 1.5rem;
+    padding: 0.6rem  1.5rem;
+    color: rgb(243, 237, 221);
 }
 .hero .content p {
     font-size: 1.4rem;
@@ -48,7 +49,8 @@ position: relative;
 @media screen and (maxx-width:640px){
 
     .hero .content h1{
-        font-size: 3rem;
+        font-size: 1.5rem;
+        color: rgb(243, 237, 221);
     }
     .hero .content p {
         font-size: 1.4rem;

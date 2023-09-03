@@ -1,0 +1,24 @@
+/* <div className="text1">
+        <h1>Why Choose Us ?</h1>
+        <p>Treated 1000+ patient</p>
+      </div> */
+
+      .text1 h1{
+        font-size: 4rem;
+        /* width: 40%; */
+      }
+      .text1 p{
+        font-size: 3rem;
+        color: azure;
+
+      }
+
+      @media screen and (max-width: 640px) {
+        .text1 h1{
+            font-size: 2rem;
+          }
+          .text1 p{
+            font-size: 1rem;
+            font-weight: 400;
+          }
+      }

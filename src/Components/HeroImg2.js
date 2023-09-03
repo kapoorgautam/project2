@@ -6,7 +6,7 @@ import "./HeroImg2Styles.css";
    return (
      <div className="hero-img">
       
-        
+        <h4 className="headin">Our Mission: Your Optimal Health and Recovery</h4>
         </div>
        
    );
