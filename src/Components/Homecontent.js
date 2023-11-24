@@ -24,7 +24,7 @@ const Homecontent = () => {
             <img src={d} alt="true" />
           </div>
           <div className="big-feature-des ">
-            <h2> Relief and Wellness: Your Journey to a Better You</h2>
+            <h2> Pain Relief and Wellness: Your Journey to a Better You</h2>
             <p>Embark on a path to improved well-being with our comprehensive physiotherapy services. We're here to alleviate your pain, enhance your mobility, and help you rediscover a pain-free, active lifestyle. Explore our range of specialized treatments designed to address your unique needs and goals.</p>
           </div>
         </div>
