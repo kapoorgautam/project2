@@ -5,15 +5,16 @@ import HeroImg from "../Components/HeroImg";
 import Homecontent from "../Components/Homecontent.js";
 
 
+
 import Footer from "../Components/Footer";
 const Home = () => {
   return (
     <div>
       <Navbar/>
       <HeroImg/>
-      <Homecontent/>
-      {/* <Work/> */}
       
+      <Homecontent/>
+     
       <Footer/>
       </div>
   );

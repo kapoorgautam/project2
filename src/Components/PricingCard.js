@@ -10,27 +10,27 @@ const Pricingcard = () => {
         <div className="card1-container">
        
             <div className="card1">
-                <h3>- HOME SERVICE -</h3>
+                <h3>-HOME SERVICE-</h3>
                 <span className="bar"></span>
-                <p className="btc"> Rs.500</p>
+                <p className="btc"> Rs.600</p>
                 
-                <p>- Responsive Design -</p>
+                <p>~Your Space, Your Health, Our Priority</p>
                <Link to="/contact" className="btn">  GET APPOINTED</Link>
             </div>
             <div className="card1">
                 <h3>- CLINICSL SERVICE -</h3>
                 <span className="bar"></span>
-                <p className="btc"> Rs.350</p>
+                <p className="btc"> Rs.400</p>
                
-                <p>- Responsive Design -</p>
+                <p>~Clinical Mastery for Your Optimal Health</p>
                <Link to="/contact" className="btn"> GET APPOINTED</Link>
             </div>
             <div className="card1">
                 <h3>- ONLINE SERVICE -</h3>
                 <span className="bar"></span>
-                <p className="btc"> Rs.250</p>
+                <p className="btc"> Rs.200</p>
                 
-                <p>- Responsive Design -</p>
+                <p>~Online Physio: Where Care Knows No Boundaries</p>
                <Link to="/contact" className="btn"> GET APPOINTED</Link>
             </div>
               

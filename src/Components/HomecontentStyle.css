@@ -1,7 +1,9 @@
 
 .container{
-    max-width: 1180px;
-    margin-inline: auto;
+    /* max-width: 1180px; */
+
+    /* margin-inline: auto; */
+    margin: 1rem 5rem;
     padding: 30px;
     overflow: hidden;
 }
@@ -32,7 +34,7 @@
 }
 .big-feature img{
 
-    width: 30vw;
+    width: 40vw;
    
     border-radius: 20px solid black;
 }
@@ -88,11 +90,11 @@ color:  rgb(131, 122, 106);
     width: 3rem;
 }
 /* big feature sectionstart */
+/* .feature-card>a{
+    margin-right: 12rem;
+} */
 
-.big-feature{
-    padding: 60px var(--padding-inline-section) 0;
 
-}
 
 
 

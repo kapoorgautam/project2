@@ -6,7 +6,7 @@
   font-family: 'outfit' ,sans-serif; 
 }
 body{
-  background-color: #DAD9D0;
+  background-color: #FFF2D8;
   /* background-image: url(https://images.unsplash.com/photo-1629968417850-3505f5180761?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1952&q=80); */
 }
 h1,h4,p,a
@@ -18,13 +18,14 @@ ul{
 }
 
 .btn {
-  padding: 12px 32px;
-  font-size: 1rem;
+  padding: .5rem .5rem;
+  font-size: .8rem;
  text-transform: uppercase;
   background: #C2DEDC;
   color: #222;
   border: 1px solid #0d0c0c;
  font-weight: 600;
+ width: auto;
   cursor: pointer;
   border-radius: 10px;
 }

@@ -10,9 +10,19 @@
       .text1 p{
         font-size: 3rem;
         color: azure;
-
       }
-
+      .p {
+ 
+        justify-content: center;
+        /* margin: 6rem 30rem; */
+        gap: 1rem;
+      
+    
+    }
+    .p{
+        margin: 0rem 14rem;
+        padding: 0rem 4rem;
+    }
       @media screen and (max-width: 640px) {
         .text1 h1{
             font-size: 2rem;

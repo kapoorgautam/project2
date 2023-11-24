@@ -72,27 +72,15 @@
         display: initial;
         hover: pointer;
 }
-.logowa{
-    width: 60px;
-    position: fixed;
-    margin-top: 98%;
-    /* bottom: 10px; */
-    /* top: 20vh; */
-    /* right: 10px; */
-    z-index: 7;
-    padding-right: 0.6rem;
+
 }
+@media screen and (max-width:400px){
+    .logowa{
+        width: 60px;
+        position: fixed;
+        margin-top: 98%;
+        z-index: 7;
+        padding-right: 0.6rem;
+    }
+
 }
-
-
-/* @media screen and (max-width:420px){
-.logowa{
-    width:70px;
-    top: 25%;
-    left: 80%;
-    position: fixed;
-    
-    z-index: 7;
-    padding-right: 1rem;
-
-}} */

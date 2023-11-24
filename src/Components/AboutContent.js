@@ -6,6 +6,7 @@ import React from 'react'
 import "./AboutcardStyles.css";
 
 
+
 const AboutContent = () => {
 
   
@@ -15,21 +16,23 @@ const AboutContent = () => {
     <div className="about">
       <div className="abouttext">
         <h1>Optima physiocare trusts</h1>
-        <p>
+        {/* <p>
         Currently working in Jivisha advanced medical centre,paschim vihar,Delhi...
 Treated 200 + patient in clinical practice..
 Also have 6 months experience from "Rohtak PGIMS"
 
-</p>
+</p> */}
 <p className="pe"> Our Physiotherapist.. </p>
-{/* <h3>Dr. Nikhil kapoor</h3>     */}
+
   </div>
   <div className="container">
+ 
+
       <div className="leftaboutimg">
         <img src= {dr} alt="true" />
         <h1>Dr. Nikhil kapoor</h1>
-        <h2> Currently working in Jivisha advanced medical centre,paschim vihar,Delhi...
-Treated 200 + patient in clinical practice.. </h2>
+        {/* <h2> Currently working in Jivisha advanced medical centre,paschim vihar,Delhi...
+Treated 200 + patient in clinical practice.. </h2> */}
       </div>
       <div className="rightaboutimg">
         <img src= {neuroweb} alt="true" />
