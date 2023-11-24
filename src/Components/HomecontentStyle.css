@@ -3,9 +3,10 @@
     /* max-width: 1180px; */
 
     /* margin-inline: auto; */
-    margin: 1rem 5rem;
+    /* margin: 1rem 5rem; */
     padding: 30px;
     overflow: hidden;
+    
 }
 
 
@@ -15,7 +16,7 @@
      justify-content: flex-end;
 }
 .big-f{
-    gap: 60px;
+    /* gap: 60px; */
   
 }
  .flex{
@@ -30,7 +31,7 @@
 }
 
 .big-f{
-    gap: 60px;
+    /* gap: 60px; */
 }
 .big-feature img{
 
