@@ -71,7 +71,7 @@
     .hamburger{
         display: initial;
         hover: pointer;
-        margin-right: 3rem;
+        /* margin-right: 3rem; */
 }
 
 }

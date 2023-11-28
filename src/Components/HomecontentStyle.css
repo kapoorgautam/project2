@@ -112,6 +112,9 @@ color:  rgb(131, 122, 106);
             flex-wrap: wrap;
 
         }
+        .container{
+            padding: 0rem 2rem;
+        }
 
         .feature-area{
             gap: 30px;
