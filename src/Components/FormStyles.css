@@ -8,9 +8,9 @@ label{
     
     /* display: grid; */
     display: flex;
-    margin-left: 7rem;
+    /* margin-left: 7rem; */
     /* flex-direction: column; */
-    padding: 0rem 2rem;
+    /* padding: 0rem 2rem; */
     gap: 5rem;
    
     /* padding: 0rem 20vw; */
@@ -18,9 +18,9 @@ label{
     overflow: hidden;
 }
 .form-container .l-form h1{
-    font-size: 3rem;
+    font-size: 1.8rem;
     color: #070606;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     margin-top: -3rem;
 }
 .form-container .l-form{
@@ -44,6 +44,7 @@ label{
     font-size: 1.2rem;
     font-weight: 500;
     width: 40vw;
+    /* margin-bottom: -5rem; */
     color: grey;
 }
 #n h2{
