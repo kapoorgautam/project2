@@ -24,6 +24,8 @@ position: relative;
 .hero{
     height: 100%;
     width: 100%;
+    padding:0rem 3rem;
+    padding-bottom: 4rem;
 }
 .hero .content{
     position: absolute;

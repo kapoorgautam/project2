@@ -1,6 +1,6 @@
 import "./FormStyles.css"
 import React from 'react'
-import d from "../assets/dr-c.jpg"
+import d from "../assets/contact1.png"
 
 
 
@@ -14,7 +14,9 @@ const Form = () => {
        <div className="form-container">
       <div className="l-form">
       <img src= {d} alt="true" />
-      <h5>At Optima Physio Care,Our team of experienced physiotherapists is here to support you on your journey to recovery and well-being. we're here to answer your questions, provide guidance, and schedule your first appointment. Take the first step towards a healthier,happier you – get in touch with us today!</h5>
+      <h1>Get in Touch with Us</h1>
+      <h5>We are here to support you on your journey to recovery and well-being.Thank you for considering Optima Physio Care for your physiotherapy needs. Whether you have questions, want to schedule an appointment, or simply seek more information, our team is here to assist you. Feel free to reach out</h5>
+      {/* <h5>At Optima Physio Care,Our team of experienced physiotherapists is here to support you on your journey to recovery and well-being. we're here to answer your questions, provide guidance, and schedule your first appointment. Take the first step towards a healthier,happier you – get in touch with us today!</h5> */}
 
       </div>
 

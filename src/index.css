@@ -3,7 +3,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'outfit' ,sans-serif; 
+  /* font-family:  ,sans-serif;  */
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins','outfit', 'sans-serif',"matter light","matter regular","matter bold","matter bold italic",  "Roboto Medium";
 }
 body{
   background-color: #FFF2D8;

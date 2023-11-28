@@ -11,18 +11,18 @@ const Footer = () => {
     <div className="footer-container">
        <div className="left">
        <div className="location">
-            <FaHome size ={20} style={{color:"white" ,marginRight: "2rem"}}/>
+            <h4><FaHome size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href="https://maps.google.com/maps?q=N.K. physiotherapy clinic A-26, shiv bux park, Shiv Park, Nangloi, Delhi, 110041"> NANGLOI DELHI-41,India</a></h4>
             <div>
-                <p>NANGLOI DELHI-41,India</p>
+               
                
             </div>
 
         </div>
          <div className="Phone">
-         <h4><FaPhone size ={20} style={{color:"white" ,marginRight: "2rem"}}/> 91-8447646815</h4>
+         <h4><FaPhone size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href='tel:8447646815'> +91 8447646815</a> </h4>
          </div>
          <div className="email">
-            <h4><FaMailBulk size ={20} style={{color:"white" ,marginRight: "2rem"}}/> nikhilkapoor9540@gmail.com</h4>
+            <h4><FaMailBulk size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href= 'mailto:“ nikhilkapoor9540@gmail.com”'>Click here to email us</a></h4>
          </div>
          <div className="social">
         <div className="fab">
@@ -40,7 +40,7 @@ const Footer = () => {
        <div className="right">
         <h1>About Organization</h1>
         <p>We provide hand on manual therapy as well as through electro modalities.
-        As a physiotherapist we come across many different patients with different types of disability such as ,PIVD , Cervical problems, scoliosis, osteo-arthritis,Low back ache and many more body ache issue....and we provide best physio care to each and every person with 1-on-1 session... also we are giving 24*7 hour service.</p>
+        As a physiotherapist we come across many different patients with different types of disability such as ,PIVD , Cervical problems, scoliosis, osteo-arthritis,Low back ache and many more body ache issue and we provide best physio care to each and every person with 1-on-1 session also we are giving 24*7 hour service.</p>
   
        </div>
      </div>

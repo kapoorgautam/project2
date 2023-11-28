@@ -5,26 +5,46 @@ label{
 }
 
 .form-container{
-    position: relative;
+    
     /* display: grid; */
     display: flex;
-    margin: 0rem 0rem;
-    padding: 0rem 20vw;
-    justify-content: space-around;
+    margin-left: 7rem;
+    /* flex-direction: column; */
+    padding: 0rem 2rem;
+    gap: 5rem;
+   
+    /* padding: 0rem 20vw; */
+    
     overflow: hidden;
 }
+.form-container .l-form h1{
+    font-size: 3rem;
+    color: #070606;
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+}
 .form-container .l-form{
-    width: 100%;
-    height: 40vh;
-    margin-top: 3rem;
+  margin-bottom: 2rem;
+    /* margin-top: 3rem;
     margin-left: 3rem;
-    margin-right: 6rem;
+    margin-right: 6rem; */
     
+}
+.form-container .l-form img
+{
+    width: 30rem;
+    /* height: 4rem; */
+    margin: 0rem 0rem;
+    padding: 0rem 1rem;
+
+
 }
 .l-form h5{
     margin-top: 4rem;
     font-size: 1.2rem;
     font-weight: 500;
+    width: 40vw;
+    color: grey;
 }
 #n h2{
     font-size: 3em;
@@ -78,9 +98,9 @@ label{
             flex-direction: column;
                justify-content: center;
                 text-align: center;
-                margin-top: 4rem;
+                /* margin-top: 4rem;
                 margin-right: 3rem;
-                margin-bottom: 0rem;
+                margin-bottom: 0rem; */
                 padding: 1rem ;
                 max-width: 100%;
                 border-color: rgba(255, 255, 255, 0.1);
@@ -125,45 +145,44 @@ form textarea{
 
 @media screen and (max-width: 640px) {
     #n h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-left: 60px;
+        font-weight: 800;
     }
 
     .form-container{
      display: flex;
-     gap: 80vw;
+    margin-left: -2rem;
+     /* gap: 80vw; */
         /* display: grid; */
         flex-wrap: wrap;
         /* display: flex; */
     }
-    .form-container .l-form{
-        width: 100%;
-        /* height: 20%; */
-    /* margin-right: 30%; */
-        
-    }
-    /* .form-container .l-form h4{
-        font-size: 1rem;
+
+    .form-container .l-form h5{
+        font-size: 1.5rem;
         font-weight: 400;
-    } */
+        width: 100%;
+        margin-top: -3rem;
+    }
 
     .form-container .l-form img{
-        width: 70vw;
-        margin: 0rem 0rem;
+        width: 100%;
+        /* height: 40vh; */
+        /* margin: 0rem 0rem; */
         /* padding: 0rem 1rem; */
     }
     .form-container .l-form h4{
-        /* font-weight: 500;
-        margin-top: 2rem;
-        font-size: 1rem; */
+      
         display: none;
-        
-        /* margin-left:1rem ; */
+    
     }
     .form-container .form{
-        margin: 1rem 3rem;
+       
+        margin: 0rem 3rem;
         width: 100vw;
-        margin-left: 5rem;
+        margin-top: 7rem;
+     
        
 
 
@@ -191,8 +210,8 @@ form textarea{
 
         margin-top: 1rem;
         font-size: 1.2rem;
-        font-weight: 500;
-        margin-left:40px ;
+        font-weight: 300;
+        /* margin-left:40px ; */
         justify-content: center;
         text-align: center;
     }

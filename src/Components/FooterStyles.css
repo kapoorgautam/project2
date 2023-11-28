@@ -9,7 +9,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 80px; 
+    grid-gap: 30px; 
 }
 .left{
     height: 100%;
@@ -24,12 +24,12 @@
     margin-bottom: 0.8rem;
 }
 .location p{
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 .email{
     width: 100%;
     display: flex;
-    line-height: 10vh;
+    /* line-height: 10vh; */
 }
 .right{
     height:100%;
@@ -39,7 +39,7 @@
     padding: 1rem;
 }
 .social{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 h4 {
@@ -48,6 +48,8 @@ h4 {
 }
 p{
     font-size: 1.2rem;
+    /* line-height: 20px; */
+    word-spacing: 6px;
 }
 .last{
     text-align: center;

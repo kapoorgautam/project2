@@ -1,12 +1,9 @@
 
 .container{
-    /* max-width: 1180px; */
-
-    /* margin-inline: auto; */
-    /* margin: 1rem 5rem; */
-    padding: 30px;
+  
+    /* padding: 30px; */
     overflow: hidden;
-    
+    padding:0rem 6rem;
 }
 
 
@@ -43,12 +40,14 @@
     /* margin-left: 8vw; */
     flex-direction: column;
     align-items: flex-start;
+    margin-top: -4rem;
 }
 
 
 .big-feature-des h2{
- margin-bottom: 10px;
- font-size: 2.5em;
+ margin-bottom: 3rem;
+ font-size: 2em;
+ font-weight: 600;
 }
 .big-feature-des p{
 font-size: 1.6rem;
@@ -141,11 +140,11 @@ color:  rgb(131, 122, 106);
             margin-top: -30px ;
         }
         .big-feature-des h2{
-               font-size: 1.5rem;
+               font-size: 2rem;
                margin-top: 1rem;
         }
         .big-feature-des p{
-            font-size: 1rem;
+            font-size: 1.5rem;
 
         }
 
