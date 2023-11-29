@@ -46,7 +46,7 @@ Meet Dr. Nikhil kapoor, the heart and soul of Optima Physio Care's exceptional p
         Dr. kapoor brings a wealth of expertise to Optima Physio Care. With a background in physiotherapy and years of hands-on experience, Dr. kapoor has successfully treated a diverse range of conditions. Whether it's rehabilitation after surgery, managing chronic pain, or optimizing sports performance, Dr. kapoor combines extensive knowledge with a compassionate approach.</p>
         <h1>Community Involvement:</h1>
         <p>
-        Beyond the clinic, Dr. [Last Name] is deeply involved in the community. Whether it's conducting workshops, participating in health fairs, or collaborating with local organizations, Dr. [Last Name] is passionate about spreading awareness regarding the benefits of physiotherapy and overall well-being.</p>
+        Beyond the clinic, Dr.kapooris deeply involved in the community. Whether it's conducting workshops, participating in health fairs, or collaborating with local organizations, Dr.kapoor is passionate about spreading awareness regarding the benefits of physiotherapy and overall well-being.</p>
         </div>
         <img src= {dr} alt="true" />
         

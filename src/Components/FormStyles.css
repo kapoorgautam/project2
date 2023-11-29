@@ -5,7 +5,7 @@ label{
 }
 
 .form-container{
-    
+    margin : 0rem 1rem;
     /* display: grid; */
     display: flex;
     /* margin-left: 7rem; */
@@ -20,14 +20,11 @@ label{
 .form-container .l-form h1{
     font-size: 1.8rem;
     color: #070606;
-    margin-bottom: 5rem;
-    margin-top: -3rem;
+    /* margin-bottom: 5rem; */
+    /* margin-top: -3rem; */
 }
 .form-container .l-form{
-  margin-bottom: 2rem;
-    /* margin-top: 3rem;
-    margin-left: 3rem;
-    margin-right: 6rem; */
+  /* margin-bottom: 2rem; */
     
 }
 .form-container .l-form img
@@ -40,10 +37,10 @@ label{
 
 }
 .l-form h5{
-    margin-top: 4rem;
-    font-size: .8rem;
+    /* margin-top: 4rem; */
+    font-size: 1.8rem;
     font-weight: 500;
-    width: 40vw;
+    /* width: 40vw; */
     /* margin-bottom: -5rem; */
     color: grey;
 }
@@ -150,8 +147,14 @@ form textarea{
         font-size: 1.5rem;
         margin-left: 60px;
         font-weight: 800;
-    }
 
+    }
+     .form{
+        margin: 0rem 1rem;
+        
+     }
+        
+     
     .form-container{
      display: flex;
     margin-left: -2rem;
@@ -165,7 +168,7 @@ form textarea{
         font-size: 1.5rem;
         font-weight: 400;
         width: 100%;
-        margin-top: -3rem;
+        /* margin-top: -3rem; */
     }
 
     .form-container .l-form img{
@@ -183,7 +186,7 @@ form textarea{
        
         margin: 0rem 3rem;
         width: 100vw;
-        margin-top: 7rem;
+        margin-top: 10rem;
      
        
 

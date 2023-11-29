@@ -14,7 +14,7 @@
     transition: 0.5s;
 }
 .logo{
-     margin-left: 3rem;
+     margin-left: 1rem;
     max-width: 270px;
     
 }
@@ -71,7 +71,7 @@
     .hamburger{
         display: initial;
         hover: pointer;
-        /* margin-right: 3rem; */
+        margin-right: 2rem;
 }
 
 }
