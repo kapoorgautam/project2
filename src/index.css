@@ -5,15 +5,19 @@
   padding: 0;
   /* font-family:  ,sans-serif;  */
 }
+
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
-  font-family: 'Poppins','outfit', 'sans-serif',"matter light","matter regular","matter bold","matter bold italic",  "Roboto Medium";
+  font-family: "matter",  "Roboto Medium";
 }
 body{
   background-color: #FFF2D8;
   /* background-image: url(https://images.unsplash.com/photo-1629968417850-3505f5180761?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1952&q=80); */
+}
+.ds{
+  filter: drop-shadow(0 0 0.60rem #113946);
 }
 h1,h4,p,a
 {color: white;

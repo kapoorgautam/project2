@@ -20,32 +20,32 @@ const Homecontent = () => {
       
       <><div className="big-feature">
         <div className="container flex big-f ">
-          <div className="big-feature-img">
+          <div className="big-feature-img ds">
             <img src={d} alt="true" />
           </div>
           <div className="big-feature-des ">
-            <h2> Pain Relief and Wellness: Your Journey to a Better You</h2>
+            <h2> <span>Pain Relief and Wellness:</span> Your Journey to a Better You</h2>
             <p>Embark on a path to improved well-being with our comprehensive physiotherapy services. We're here to alleviate your pain, enhance your mobility, and help you rediscover a pain-free, active lifestyle. Explore our range of specialized treatments designed to address your unique needs and goals.</p>
           </div>
         </div>
         <div className="container flex big-f reverse">
-          <div className="big-feature-img">
+          <div className="big-feature-img ds">
             <img src={a} alt="true" />
           </div>
           <div className="big-feature-des ">
 
-            <h2>Meet Our Expert Physiotherapy Team: Your Health, Our Priority</h2>
+            <h2> <span>Meet Our Expert Physiotherapy Team:</span> Your Health, Our Priority</h2>
             <p>At our clinic, you'll find a team of dedicated and experienced physiotherapists committed to your health and recovery. We pride ourselves on delivering personalized care to each patient, ensuring that you receive the highest level of treatment and support. Discover the difference our expertise can make in your life</p>
           </div>
         </div>
 
         <div className="container flex big-f ">
-          <div className="big-feature-img">
+          <div className="big-feature-img ds">
             <img src={b} alt="true" />
           </div>
           <div className="big-feature-des ">
 
-            <h2>Injury Rehabilitation Simplified: Regain Your Strength and Confidence</h2>
+            <h2><span>Injury Rehabilitation Simplified: </span>Regain Your Strength and Confidence</h2>
             <p>Injury recovery shouldn't be complicated. Our approach is all about simplifying the process while achieving remarkable results. Whether you're recovering from surgery, a sports injury, or a musculoskeletal issue, we're here to guide you back to full strength and confidence. Begin your journey to recovery with us today.</p>
           </div>
         </div>

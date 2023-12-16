@@ -18,7 +18,7 @@ const Pricingcard = () => {
                <Link to="/contact" className="btn">  GET APPOINTED</Link>
             </div>
             <div className="card1">
-                <h3>- CLINICSL SERVICE -</h3>
+                <h3>- CLINICAL SERVICE -</h3>
                 <span className="bar"></span>
                 <p className="btc"> Rs.400</p>
                

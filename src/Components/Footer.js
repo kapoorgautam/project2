@@ -22,7 +22,7 @@ const Footer = () => {
          <h4><FaPhone size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href='tel:8447646815'> +91 8447646815</a> </h4>
          </div>
          <div className="email">
-            <h4><FaMailBulk size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href= 'mailto:“ nikhilkapoor9540@gmail.com”'>Click here to email us</a></h4>
+            <h4><FaMailBulk size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href= 'mailto:nikhilkapoor9540@gmail.com'>Click here to email us</a></h4>
          </div>
          <div className="social">
         <div className="fab">
