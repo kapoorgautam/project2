@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="footer-container">
        <div className="left">
        <div className="location">
-            <h4><FaHome size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href="https://maps.google.com/maps?q=N.K. physiotherapy clinic A-26, shiv bux park, Shiv Park, Nangloi, Delhi, 110041"> NANGLOI DELHI-41,India</a></h4>
+            <h4><FaHome className="h"size ={20} style={{marginRight: "2rem"}} /><a href="https://maps.google.com/maps?q=N.K. physiotherapy clinic A-26, shiv bux park, Shiv Park, Nangloi, Delhi, 110041"> NANGLOI DELHI-41,India</a></h4>
             <div>
                
                
@@ -19,20 +19,20 @@ const Footer = () => {
 
         </div>
          <div className="Phone">
-         <h4><FaPhone size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href='tel:8447646815'> +91 8447646815</a> </h4>
+         <h4><FaPhone  className="h "size ={20} style={{marginRight: "2rem"}}/><a href='tel:8447646815'> +91 8447646815</a> </h4>
          </div>
          <div className="email">
-            <h4><FaMailBulk size ={20} style={{color:"white" ,marginRight: "2rem"}}/><a href= 'mailto:nikhilkapoor9540@gmail.com'>Click here to email us</a></h4>
+            <h4><FaMailBulk  className="h"size ={20} style={{marginRight: "2rem"}}/><a href= 'mailto:nikhilkapoor9540@gmail.com'>nikhilkapoor9540@gmail</a></h4>
          </div>
          <div className="social">
         <div className="fab">
         <Link to="https://www.facebook.com/profile.php?id=100094770625926&mibextid=ZbWKwL">
-      <FaFacebook   size ={30} style={{color:"white" ,marginRight: "1rem", hover:"black"}} />
+      <FaFacebook  className="h"  />
       </Link>
       <Link to="https://instagram.com/optimaphysiocare?igshid=MzMyNGUyNmU2YQ==">
-      <FaInstagram size ={30} style={{color:"white" ,marginRight: "1rem"}} /> </Link>
+      <FaInstagram className="h" /> </Link>
       <Link to="https://www.linkedin.com/in/nikhil-kapoor-68072b24a">
-      <FaLinkedin size ={30} style={{color:"white" ,marginRight: "1rem"}}/> </Link>
+      <FaLinkedin className="h"/> </Link>
      
       </div>
       </div>

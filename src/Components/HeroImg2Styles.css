@@ -66,7 +66,7 @@
   font-size: 1.2px;
   font-weight: 300;
   }
-@media  screen and (max-width:350px) {
+@media  screen and (max-width:640px) {
  .hero-img h1{ 
     font-size: 2rem;
  }   
@@ -79,5 +79,40 @@ letter-spacing: -.5px;
   top: 47%;
   left: 10%;
 }
+
+.hero .content h1{
+  font-size: 1.5rem;
+  color: rgb(243, 237, 221);
+}
+.hero .content p {
+  font-size: 1rem;
+  
+}
+.hero .content{
+  margin-top: -10rem;
+}
+
+
+
+.hero-img::before{
+  content: "";
+  background: url("https://img.freepik.com/free-vector/physiotherapy-rehabilitation-people-flat-icons-collection_1284-15880.jpg?w=2000");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1 ;
+}
+.hero-img{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 40vh;
+  position: relative;
+  /* margin-bottom: 0%; */
+   /* padding: 0rem 3rem; */
+  border-bottom: 2px solid #070606;
+}
+ 
 
 }

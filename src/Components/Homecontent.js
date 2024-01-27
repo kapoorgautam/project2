@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom"
 // import pt4 from "../assets/pt4.jpg"
 import "./HomecontentStyle.css";
+// import "./Homeanim.js";
 import d from "../assets/o1.png"
 import a from "../assets/o2.png"
 import b from "../assets/o3.png"
@@ -56,19 +57,19 @@ const Homecontent = () => {
             <img src={e} alt="true" />
             <h3>Home service</h3>
             <p>Your Space, Your Health, Our Priority</p>
-            <a href="./Treat"><button className="btn">Load more <span>→</span></button></a>
+            <a href="./Treat"><button className="btn">Load more →</button></a>
           </div>
           <div className="feature-card flex">
             <img src={g} alt="true" />
             <h3>Digital service</h3>
             <p>Online Physio: Where Care Knows No Boundaries</p>
-            <a href="./Treat"><button className="btn">Load more <span>→</span></button></a>
+            <a href="./Treat"><button className="btn">Load more →</button></a>
           </div>
           <div className="feature-card flex">
             <img src={f} alt="true" />
             <h3>Clinical service</h3>
             <p>Clinical Mastery for Your Optimal Health</p>
-            <a href="./Treat"><button className="btn">Load more <span>→</span></button></a>
+            <a href="./Treat"><button className="btn">Load more →</button></a>
           </div>
         </div>
         </div>

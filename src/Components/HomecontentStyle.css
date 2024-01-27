@@ -17,10 +17,7 @@ span{
     flex-direction: row-reverse;
      justify-content: flex-end;
 }
-.big-f{
-    /* gap: 60px; */
-  
-}
+
  .flex{
     display: flex;
     align-items: center;
@@ -56,7 +53,7 @@ span{
 }
 .big-feature-des p{
 font-size: 1.6rem;
-color:  rgb(131, 122, 106);
+color:  rgb(56, 47, 31);
 
 }
  /* Services card  */
@@ -132,6 +129,7 @@ color:  rgb(131, 122, 106);
         }
         .big-feature{
             overflow: hidden;
+            margin-top: -63vh;
         }
         .big-feature-img img{
             width: 100%;
@@ -148,11 +146,16 @@ color:  rgb(131, 122, 106);
             margin-top: -30px ;
         }
         .big-feature-des h2{
-               font-size: 2rem;
+               font-size: 1.4rem;
                margin-top: 1rem;
+               /* margin-bottom: -.1rem; */
+        }
+        .big-feature-des h2 span{
+            font-size: 1.5rem;
         }
         .big-feature-des p{
-            font-size: 1.5rem;
+            font-size: 1.1rem;
+            margin-top: -2.3rem;
 
         }
 
@@ -162,7 +165,7 @@ color:  rgb(131, 122, 106);
         }
         .feature-card h3{
             width: 100%;
-            font-size: 1.3em;
+            font-size: 1em;
 
         }
 
@@ -172,8 +175,8 @@ color:  rgb(131, 122, 106);
         }
 
         .btn{
-            font-size: 0.8rem;
-            padding: .5rem .7rem ;
+            font-size: .8rem;
+            padding: .4rem .8rem ;
         }
         .feature-card{
             flex-direction: column;

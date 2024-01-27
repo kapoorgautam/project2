@@ -48,18 +48,43 @@ position: relative;
 .content .btn{
     margin: 1rem 0.2rem;
 }
-@media screen and (maxx-width:640px){
+@media screen and (max-width:640px){
 
     .hero .content h1{
         font-size: 1.5rem;
         color: rgb(243, 237, 221);
     }
     .hero .content p {
-        font-size: 1.4rem;
+        font-size: 1rem;
         
     }
-    .hero{
-        padding: 0rem 0rem;
+    .hero .content{
+        margin-top: -10rem;
+    }
+    .hero>mask{
+        /* margin-top: 5rem; */
+
+    }
+    .mask::after {
+        content: "";
+        width: 100%;
+        height: 44%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(12, 12, 12);
+        opacity: 0.6;
+    }
+    
+    .into-img{
+        width: 100%;
+        height: 40%;
+        margin-top: 2rem;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+       
+    
     }
     
 }
