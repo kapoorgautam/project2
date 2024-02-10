@@ -4,6 +4,7 @@ import HeroImg from "../Components/HeroImg";
 // import Work from "../Components/Work";
 import Homecontent from "../Components/Homecontent.js";
 import { Helmet } from "react-helmet";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 
 
@@ -22,6 +23,7 @@ const Home = () => {
       <Homecontent/>
      
       <Footer/>
+      <SpeedInsights />
       </div>
   );
 };

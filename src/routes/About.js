@@ -4,6 +4,8 @@ import Footer from "../Components/Footer";
  import HeroImg2 from '../Components/HeroImg2';
 import AboutContent from '../Components/AboutContent';
 import { Helmet } from "react-helmet";
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 // import ProfileSlider from '../Components/ProfileSlider';
 
 import "./Frontstyle.css";
@@ -21,6 +23,7 @@ const About = () => {
 
       <AboutContent />
       <Footer />
+      <SpeedInsights />
     </div> </>
   )
 }
