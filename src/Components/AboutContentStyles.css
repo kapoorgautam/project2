@@ -152,7 +152,13 @@ flex-direction: column;
 
                 }
                 .aboutdr p{
-                    font-size: 1rem;
+                    font-size: 1.2rem;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: start;
+                    padding: 0rem -2rem -1rem -2rem;
+
                 }
                    
                 .about .rightaboutimg{
