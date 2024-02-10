@@ -15,7 +15,7 @@ flex-direction: column;
     margin: 3rem 1rem;
 }
 .about .abouttext h1{
- font-size: 3em;
+ font-size: 2em;
  color: black;
 }
   
@@ -77,10 +77,12 @@ flex-direction: column;
     .leftaboutimg h1{
         color: black;
         font-weight: 400;
+
     }
     .aboutdr h1{
-        color: black;
+        color: rgb(9, 9, 9);
         font-weight: 400;
+        font-size: 2.4rem;
     }
     
     .about .rightaboutimg img{
@@ -138,19 +140,33 @@ flex-direction: column;
             }
             @media screen and (max-width: 640px) {
                 
-             
+                .aboutdr h1{
+                    font-size: 1.6rem;
+                }
+                .rightaboutimg{
+                    display: flex;
+                    /* flex-direction: column;
+                     */
+                    width: 100%;
+                   
 
+                }
+                .aboutdr p{
+                    font-size: 1rem;
+                }
+                   
                 .about .rightaboutimg{
-                  margin-left: 2.3rem;
+                  /* margin-left: 2.3rem; */
+                  margin-right: -3rem;
                   display: flex;
                   flex-direction: column;
-                  justify-content: center;
+                  /* justify-content: center; */
                   align-items: center;
              
                 
                 }
                 .about .rightaboutimg img{
-                    width: 60vw;
+                    width: 95vw;
                 }
                  .about .acard1-container {
                     max-width: 80%;
@@ -220,5 +236,8 @@ flex-direction: column;
                     font-size: 1.8rem;
                 font-weight: 200;         
                 }
-         
+                
+         .smalll{
+            font-size: .5rem;
+         }
             }

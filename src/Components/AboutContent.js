@@ -15,7 +15,7 @@ const AboutContent = () => {
  
     <div className="about">
       <div className="abouttext">
-        <h1>Optima physiocare trusts</h1>
+        <h1 className="small">Optima physiocare trusts</h1>
     
 {/* <p className="pe"> Our Physiotherapist.. </p> */}
 
