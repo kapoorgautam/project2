@@ -19,8 +19,6 @@ const About = () => {
     </Helmet>
       <Navbar />
       <HeroImg2 />
-      {/* <div className='p'><ProfileSlider /></div> */}
-
       <AboutContent />
       <Footer />
       <SpeedInsights />

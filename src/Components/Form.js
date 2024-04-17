@@ -3,7 +3,10 @@ import React from 'react'
 import d from "../assets/contact1.png"
 
 
-
+<Helmet>
+<title>Contact us| Optima Physio Care</title>
+<meta name="providing personalized care that addresses your unique needs" content="Dr. Nikhil kapoor is deeply involved in the community. Whether it's conducting workshops, participating in health fairs, or collaborating with local organizations, Dr.kapoor is passionate about spreading awareness regarding the benefits of physiotherapy and overall well-being." />
+</Helmet>
 
 const Form = () => {
    return (
