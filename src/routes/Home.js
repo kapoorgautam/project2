@@ -17,7 +17,7 @@ const Home = () => {
    <div>
         <Helmet>
         <title>Home | Optima Physio Care</title>
-        <meta name="providing personalized care that addresses your unique needs" content="Dr. Nikhil kapoor is deeply involved in the community. Whether it's conducting workshops, participating in health fairs, or collaborating with local organizations, Dr.kapoor is passionate about spreading awareness regarding the benefits of physiotherapy and overall well-being." />
+        <meta name="providing personalized care that addresses your unique needs" content="    Optima Physio Care, your trusted partner in achieving optimal health where we are dedicated to restoring movement, enhancing functionality, and promoting overall well-being." description="Optima Physio Care, your trusted partner in achieving optimal health where we are dedicated to restoring movement, enhancing functionality, and promoting overall well-being. " />
     </Helmet>
     
       <Navbar/>
