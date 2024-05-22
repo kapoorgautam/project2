@@ -1,6 +1,7 @@
 import "./FormStyles.css"
 import React from 'react'
 import d from "../assets/contact1.png"
+import { Helmet } from "react-helmet";
 
 
 <Helmet>

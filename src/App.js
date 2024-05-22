@@ -3,13 +3,14 @@ import './index.css'
 import About from "./routes/About"
 import  Contact  from './routes/Contact';
 import Home from './routes/Home';
-
+import './Components/Locomotiv.css';
 
 import Treat from './routes/Treat';
 
 
 
 import {Route,Routes} from "react-router-dom";
+
 
 function App() {
   return (

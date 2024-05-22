@@ -7,7 +7,7 @@ import PricingCard from '../Components/PricingCard';
 import Work from '../Components/Work';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
-z
+
 const Treat = () => {
   return (
     <div>

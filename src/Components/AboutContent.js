@@ -4,6 +4,7 @@ import dr from "../assets/dr.jpg"
 import neuroweb from "../assets/about2.png"
 import React from 'react'
 import "./AboutcardStyles.css";
+import { Helmet } from "react-helmet";
 
 <Helmet>
 <title>About | Optima Physio Care</title>
