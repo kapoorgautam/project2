@@ -1,11 +1,11 @@
-import React, {useEffect,useRef} from 'react'
+import React from 'react'
 import Navbar from '../Components/Navbar';
 import HeroImg from "../Components/HeroImg";
 // import Work from "../Components/Work";
 import Homecontent from "../Components/Homecontent.js";
 import { Helmet } from "react-helmet";
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
 import Footer from "../Components/Footer";
 const Home = () => {
 
